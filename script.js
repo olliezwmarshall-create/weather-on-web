@@ -1,7 +1,7 @@
 const searchForm = document.getElementById('search-form');
 const cityInput = document.getElementById('city-input');
 const displayDiv = document.getElementById('display');
-const apiKey = '5769fa62db2dd7b90d91eae8209ad21a';
+const apiKey = '5769fa62db2dd7b90d91eae8209ad21a';//https://openweathermap.org/
 
 searchForm.addEventListener('submit', function(event) {
     event.preventDefault();
